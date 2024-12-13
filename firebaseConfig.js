@@ -1,6 +1,6 @@
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"; // For Firestore
-import { getDatabase } from "firebase/database"; // For Realtime Database
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore'; // For Firestore
+import { getDatabase } from 'firebase/database'; // For Realtime Database
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
